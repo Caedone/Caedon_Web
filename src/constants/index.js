@@ -38,7 +38,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "First place winner at Axxess Hackathon 2024. Developed HIPAA-compliant React components and image analysis algorithms achieving 95% accuracy in medical sample identification.",
-    technologies: ["React", "Node.js", "OpenCV", "GPT"],
+    technologies: ["React", "NumPy", "OpenCV", "GPT"],
     github: "https://github.com/RafidN/Whizzard",
   },
   {
