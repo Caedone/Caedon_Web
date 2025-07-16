@@ -4,72 +4,63 @@ import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
 export const HERO_CONTENT = 'I am a driven Computer Science student at The University of Texas at Dallas with a strong foundation in machine learning, data analysis, and software development. Through my hands-on experience spanning cybersecurity, neuroscience research, and mobile application development, I have developed exceptional technical versatility and problem-solving capabilities. My expertise includes machine learning and computer vision combining technical excellence with practical application.';
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+
+export const ABOUT_TEXT = `I am a dedicated Computer Science student at The University of Texas at Dallas with a passion for machine learning, data analysis, and software development. Currently pursuing my BS in Computer Science (Expected May 2026), I have gained hands-on experience in cybersecurity analysis, neuroscience research, and mobile application development. My technical journey spans from developing award-winning mobile health applications to optimizing complex data processing pipelines for behavioral analysis. I excel in collaborative environments and enjoy solving complex problems through innovative technical solutions. My expertise includes computer vision, machine learning frameworks like PyTorch, and data processing in MATLAB and Python.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "May 2025 - Aug 2025",
+    role: "Cyber Security Analyst Intern",
+    company: "Christus Health",
+    description: `Analyzed production-scale distributed systems using Elastic Stack and enterprise SIEM platforms. Researched security vulnerabilities and contributed to ransomware defense script analysis with focus on data parsing and system integration.`,
+    technologies: ["JavaScript", "Python", "Elastic Stack", "Docker"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Jun 2024 - May 2025",
+    role: "Research Assistant",
+    company: "Neuroscience Research Lab - UTD",
+    description: `Developed machine learning algorithms for behavioral data clustering, achieving 98% accuracy. Built data processing pipeline handling 1M+ rows, reducing processing time by 50% through code optimization.`,
+    technologies: ["Python", "MATLAB", "Machine Learning", "SQL"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Computer Vision  Training and Optimization",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Built and optimized 5 CNN architectures achieving 94%+ accuracy on computer vision datasets. Implemented comprehensive evaluation suite with statistical analysis and performance metrics.",
+    technologies: ["Python", "PyTorch", "TensorFlow", "scikit-learn"],
+    github: "https://colab.research.google.com/drive/1-vFQKRQwl7sRGMLf5FPzn7jFqoHIOrrw?usp=sharing",
   },
   {
-    title: "Task Management App",
+    title: "Mobile Health Application - 'WHIZZARD'",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "First place winner at Axxess Hackathon 2024. Developed HIPAA-compliant React components and image analysis algorithms achieving 95% accuracy in medical sample identification.",
+    technologies: ["React", "Node.js", "OpenCV", "GPT"],
+    github: "https://github.com/RafidN/Whizzard",
   },
   {
-    title: "Portfolio Website",
+    title: "Personal Website Portfolio",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Built and deployed a modern portfolio website using React and Tailwind CSS with responsive design and optimized performance. Integrated contact form and project showcase.",
+    technologies: ["React", "JavaScript", "Vercel", "CSS"],
+    github: "https://github.com/Caedone/Caedon_Web",
   },
   {
-    title: "Blogging Platform",
+    title: "Airline Management Backend",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Full-stack application with Java backend and database connectivity. Implemented clean architecture with comprehensive CRUD operations for passenger management system.",
+    technologies: ["Java", "JDBC", "SQL"],
+    github: "https://github.com/Caedone/Airline_sys",
   },
 ];
 
 export const CONTACT = {
   address: "Dallas, Texas, USA",
-  phoneNo: "Number Avaliable Upon Request",
-  email: "caedonewing2@gmail.com",
+  phoneNo: "+1 214-608-3358",
+  email: "CaedonEwing2@gmail.com",
 };
