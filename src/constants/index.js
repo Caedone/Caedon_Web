@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     role: "Cyber Security Analyst Intern",
     company: "Christus Health",
     description: `Analyzed production-scale distributed systems using Elastic Stack and enterprise SIEM platforms. Researched security vulnerabilities and contributed to ransomware defense script analysis with focus on data parsing and system integration.`,
-    technologies: ["JavaScript", "Python", "Elastic Stack", "Docker"],
+    technologies: ["Python", "Elastic Stack", "SIEM"],
   },
   {
     year: "Jun 2024 - May 2025",
