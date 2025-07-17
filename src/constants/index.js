@@ -53,7 +53,7 @@ export const PROJECTS = [
     title: "Airline Management Backend",
     image: project4,
     description:
-      "Full-stack application with Java backend and database connectivity. Implemented clean architecture with comprehensive CRUD operations for passenger management system.",
+      "Back-end solution with database connectivity. Implemented clean architecture with comprehensive CRUD operations for custom passenger management system.",
     technologies: ["Java", "JDBC", "SQL"],
     github: "https://github.com/Caedone/Airline_sys",
   },
