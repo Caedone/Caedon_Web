@@ -10,7 +10,7 @@ export const ABOUT_TEXT = `I am a dedicated Computer Science student at The Univ
 export const EXPERIENCES = [
   {
     year: "May 2025 - Aug 2025",
-    role: "Software Engineering Intern",
+    role: "IM CyberSecurity Intern",
     company: "Christus Health",
     description: `Developed scalable C# applications with SQL database integration for healthcare data management systems, implementing robust CRUD operations and optimized database queries using .NET framework. Built production-scale infrastructure components for distributed healthcare data systems and collaborated with cross-functional engineering teams.`,
     technologies: ["C#", ".NET Framework", "SQL"],
