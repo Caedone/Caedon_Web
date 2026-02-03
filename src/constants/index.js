@@ -48,6 +48,7 @@ export const PROJECTS = [
       "Architected scalable financial data aggregation system using React TypeScript frontend with .NET backend API for real-time market data processing and analysis. Developed robust data pipeline infrastructure integrating multiple financial modeling APIs.",
     technologies: ["React", "TypeScript", ".NET API", "Python"],
     github: "https://github.com/Caedone/Dipfin",
+    liveDemo: "/dipfin/",
   },
   {
     title: "Airline Management Backend",

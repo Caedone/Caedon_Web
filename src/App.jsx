@@ -1,9 +1,5 @@
 import Navbar from './components/navbar.jsx';
-import Hero from './components/Hero.jsx';
-import Technologies from './components/Technologies.jsx'
-import Projects from './components/Projects.jsx';
-import Experience from './components/Experience.jsx';
-import Contact from './components/Contact.jsx';
+import Home from './components/Home.jsx';
 
 const App = () => {
   return (
@@ -18,11 +14,7 @@ const App = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <Navbar />
-        <Hero />
-        <Technologies />
-        <Projects />
-        <Experience />
-        <Contact />
+        <Home />
       </div>
     </>
   )
