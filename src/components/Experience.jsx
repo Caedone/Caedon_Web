@@ -29,12 +29,16 @@ const Experience = () => {
                             transition={{ duration: 0.6, delay: index * 0.2 + 0.1 }}>
                             <h3 className='mb-2 font-semibold text-2xl text-white'>
                                 {experience.role}
-                                <span className="text-sm text-gray-400"> 
+                                <span className="text-sm text-gray-400">
                                  - {experience.company}</span>
                             </h3>
-                            <p className="mb-4 text-gray-300">
-                                {experience.description}
-                            </p>
+                            <ul className="mb-4 list-disc list-inside space-y-2">
+                                {experience.bullets.map((bullet, bulletIndex) => (
+                                    <li key={bulletIndex} className="text-gray-300 text-sm leading-relaxed">
+                                        {bullet}
+                                    </li>
+                                ))}
+                            </ul>
                             {experience.technologies.map((tech, index) => (
                                 <span className="mr-2 rounded bg-gray-800 p-2 text-sm font-medium text-white" key={index}>
                                     {tech}

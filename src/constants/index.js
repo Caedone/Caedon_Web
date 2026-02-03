@@ -10,17 +10,26 @@ export const ABOUT_TEXT = `I am a dedicated Computer Science student at The Univ
 export const EXPERIENCES = [
   {
     year: "May 2025 - Aug 2025",
-    role: "IM CyberSecurity Intern",
+    role: "Application Development Intern",
     company: "Christus Health",
-    description: `Developed scalable C# applications with SQL database integration for healthcare data management systems, implementing robust CRUD operations and optimized database queries using .NET framework. Built production-scale infrastructure components for distributed healthcare data systems and collaborated with cross-functional engineering teams.`,
+    bullets: [
+      "Developed C# applications with SQL database integration for healthcare data management systems using .NET framework, implementing comprehensive CRUD operations for enterprise-level application development",
+      "Collaborated with cross-functional development teams on production-scale database architectures, gaining practical experience with distributed data systems and application deployment in enterprise environments",
+      "Participated in Agile development workflows including sprint planning, code reviews, and iterative feature development, maintaining focus on scalability and system reliability",
+      "Utilized ServiceNow for ticket management and project tracking, ensuring efficient workflow coordination and issue resolution across development teams"
+    ],
     technologies: ["C#", ".NET Framework", "SQL"],
   },
   {
     year: "Jun 2024 - May 2025",
-    role: "Research Assistant - Computational Data Analyst",
-    company: "Neuroscience Research Lab - UT Dallas",
-    description: `Led interdisciplinary team developing custom ML infrastructure utilizing unsupervised learning algorithms and affinity propagation for large-scale behavioral data clustering, doubling pattern recognition accuracy. Architected scalable data processing pipeline for over 1M rows of raw research data, reducing processing time by 50%. Utilized Docker to containerize MATLAB clustering sessions and deployed distributed MATLAB instances across compute nodes.`,
-    technologies: ["Python", "MATLAB", "Machine Learning", "Docker", "Git"],
+    role: "Research Assistant - Data Analyst",
+    company: "Neuroscience Research Lab, UT Dallas",
+    bullets: [
+      "Led interdisciplinary team developing unsupervised machine learning algorithms utilizing affinity propagation for complex behavioral data clustering, doubling pattern recognition accuracy through algorithmic optimization",
+      "Developed automated data cleaning pipeline for over 1M rows of raw data, reducing processing time by 50% through optimized algorithms and efficient data processing workflows",
+      "Collaborated with cross-functional teams to identify performance bottlenecks and implement scalable solutions, demonstrating strong analytical and problem-solving capabilities in fast-paced research environment"
+    ],
+    technologies: ["Python", "MATLAB", "Machine Learning"],
   },
 ];
 
